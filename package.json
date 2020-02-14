@@ -1,0 +1,42 @@
+{
+  "name": "@andreujuanc/durable-monitor",
+  "version": "1.0.0",
+  "description": "Azure durable functions cli monitor",
+  "main": "src/cli.js",
+  "bin": {
+    "@andreujuanc/durable-monitor": "bin/durable-monitor",
+    "durable-monitor": "bin/durable-monitor"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreujuanc/durable-monitor.git"
+  },
+  "keywords": [
+    "azure",
+    "durable",
+    "functions",
+    "monitor",
+    "cli"
+  ],
+  "author": "Juan C. Andreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreujuanc/durable-monitor/issues"
+  },
+  "homepage": "https://github.com/andreujuanc/durable-monitor#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "listr": "^0.14.3",
+    "meow": "^6.0.0",
+    "node-fetch": "^2.6.0",
+    "rxjs": "^6.5.4",
+    "table": "^5.4.6"
+  }
+}
