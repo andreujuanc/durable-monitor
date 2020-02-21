@@ -1,6 +1,6 @@
 {
   "name": "@andreujuanc/durable-monitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Azure durable functions cli monitor",
   "main": "src/cli.js",
   "bin": {
