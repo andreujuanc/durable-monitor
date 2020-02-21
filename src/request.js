@@ -53,8 +53,8 @@ export async function request(appname, authcode, fromtime, excludeList, status) 
             [chalk.bold('STATUS:'), appname],
             [chalk.white('Total'), filteredData.length],
             [chalk.yellow('Pending'), filteredData.filter(x => x.runtimeStatus == "Pending").length],
-            [chalk.green('Running'), filteredData.filter(x => x.runtimeStatus == "Running").length],
-            [chalk.blue('Completed'), filteredData.filter(x => x.runtimeStatus == "Completed").length],
+            [chalk.blue('Running'), filteredData.filter(x => x.runtimeStatus == "Running").length],
+            [chalk.green('Completed'), filteredData.filter(x => x.runtimeStatus == "Completed").length],
             [chalk.red('Failed'), filteredData.filter(x => x.runtimeStatus == "Failed").length]
         ];
 
